@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "../css/login.css";
+
 const Login = () => {
   return (
     <Container>
@@ -65,7 +66,7 @@ const CTALogoOne = styled.img`
   display: block;
   width: 100%;
 `;
-const SignUp = styled.button`
+const SignUp = styled.a`
   font-weight: bold;
   color: #f9f9f9;
   background-color: #0063e5;
